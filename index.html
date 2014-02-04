@@ -85,7 +85,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://junp.me/2014/02/04/hello/" data-id="3vhewa27r7ike765" class="article-share-link">Share</a>
+      <a data-url="http://junp.me/2014/02/04/hello/" data-id="5hnjlyiordks57df" class="article-share-link">Share</a>
       
       
     </footer>
@@ -122,9 +122,99 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://junp.me/2014/02/04/hello-world/" data-id="nv2zhnh2b81q360l" class="article-share-link">Share</a>
+      <a data-url="http://junp.me/2014/02/04/hello-world/" data-id="t4dpb3kj24iq5gkd" class="article-share-link">Share</a>
       
       
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-查看linux系统位数" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2013/03/24/查看linux系统位数/" class="article-date">
+  <time datetime="2013-03-24T13:12:44.000Z" itemprop="datePublished">Mar 24 2013</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2013/03/24/查看linux系统位数/">查看linux系统位数</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="-uname-">通过uname命令查看</h3>
+<p>命令：<em>uname -a</em>，输出如下：
+Darwi Pro.local 12.3.0 Darwin Kernel Version 12.3.0: Sun Jan  6 22:37:10 PST 2013; root:xnu-2050.22.13~1/RELEASE_X86_64 x86_64
+为64位</p>
+<h3 id="-getconf-">通过getconf命令查看</h3>
+<p>命令：<em>getconf LONG_BIT</em>，输出如下：
+x86_64
+为64位</p>
+<h3 id="-echo-hosttype-">通过echo $HOSTTYPE查看</h3>
+<p>命令：<em>echo $HOSTTYPE</em>输出如下：
+x86_64
+为64位</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://junp.me/2013/03/24/查看linux系统位数/" data-id="gmrzm8g0gcx7cygq" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux/">linux</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-a标签的download属性" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2011/12/29/a标签的download属性/" class="article-date">
+  <time datetime="2011-12-29T07:35:26.000Z" itemprop="datePublished">Dec 29 2011</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2011/12/29/a标签的download属性/">A标签的download属性</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>通常，在浏览器要下载一个资源文件，通常要给资源文件信息头里，带上Content-Disposition: attachment; filename=myfile。然后浏览器就会知道要下载这个文件，而不是跳转定向。</p>
+<p>现在，chrome从14.0.835.15+起，率先支持超链接A标签的download属性，如果要下载文件，只需要给A标签加上download属性，值为下载到本地保存的文件名，就能轻松实现了下载的功能，把href指向的资源下载到本地。例如： <a download="logo.png" href='http://www.google.com.hk/images/nav_logo114.png'>download logo</a>,点击链接后，便能把google的logo下载，而不是定向到该图片。当然，从例子里也可以看出，不存在跨域问题。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://junp.me/2011/12/29/a标签的download属性/" data-id="zk6atzj0tagaljbe" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/html5,download/">html5,download</a></li></ul>
+
     </footer>
   </div>
   
@@ -140,14 +230,28 @@
     
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/html5,download/">html5,download</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/linux/">linux</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </div>
+
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/html5,download/" style="font-size: NaNpx;">html5,download</a><a href="/tags/linux/" style="font-size: NaNpx;">linux</a>
+    </div>
+  </div>
+
   
     
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/02">February 2014</a><span class="archive-list-count">2</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/02">February 2014</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/03">March 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/12">December 2011</a><span class="archive-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -164,6 +268,14 @@
         
           <li>
             <a href="/2014/02/04/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2013/03/24/查看linux系统位数/">查看linux系统位数</a>
+          </li>
+        
+          <li>
+            <a href="/2011/12/29/a标签的download属性/">A标签的download属性</a>
           </li>
         
       </ul>
